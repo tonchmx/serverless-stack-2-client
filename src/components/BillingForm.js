@@ -5,7 +5,7 @@ import LoaderButton from './LoaderButton';
 import './BillingForm.css'
 
 class BillingForm extends Component {
-  constructor() {
+  constructor(props) {
     super(props);
 
     this.state = {
